@@ -1,0 +1,58 @@
+/* Remove margens e paddings padrão de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    /* Define box-sizing como border-box para incluir padding e border no cálculo de largura/altura */
+    box-sizing: border-box;
+}
+
+/* Remove estilos padrão de listas */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove sublinhado e herda cor de texto dos links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove bordas padrão de imagens e faz delas responsivas */
+img {
+    border: none;
+    max-width: 100%;
+    display: block;
+}
+
+/* Define altura padrão para html e body em 100% */
+html, body {
+    height: 100%;
+}
+
+/* Remove estilos de tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove estilos de botões */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* Remove estilos de inputs */
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Remove quebra de linha padrão de hr */
+hr {
+    border: none;
+    height: 0;
+}
+
