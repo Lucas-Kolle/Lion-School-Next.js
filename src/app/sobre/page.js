@@ -1,3 +1,5 @@
+/* Criando uma página secundária, que será acessada através do link na página principal. */
+
 import Link from "next/link"; // Importando o componente Link do Next.js para navegação entre páginas.
 
 export default function Sobre() {

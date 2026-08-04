@@ -1,17 +1,20 @@
 @import "tailwindcss";
 
+/* Criando as variáveis de cor (root representa o elemento raiz / documento todo) */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Primeira variável (cor de fundo) */
+  --foreground: #171717; /* Segunda variável (cor do texto) */
 }
 
+/* Definindo as variáveis de cor para uso no Tailwind CSS (Permite usar as variáveis do css no tailwind) */
 @theme inline {
-  --color-background: var(--background);
+  --color-background: var(--background); 
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+/* Definindo as variáveis de cor para o modo escuro (dark mode) de acordo com a configuração do sistema do computador do usuário */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,6 +22,7 @@
   }
 }
 
+/* Definindo o estilo do body (cor de fundo, cor do texto e fonte) */
 body {
   background: var(--background);
   color: var(--foreground);
