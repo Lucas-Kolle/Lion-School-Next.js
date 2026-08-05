@@ -2,8 +2,8 @@
 export default function Header() { /* O export serve para permitir que esse componente seja usado em outros arquivos.
                                         O default significa que este é o componente principal desse arquivo. */
     return (
-        <header className="bg-gray-800 text-white p-4">
-            <h1 className="text-3xl font-bold">Testando Header</h1>
+        <header className=" h-[10vh] bg-[#3347B0]">
+            <h1>Testando Header</h1>
         </header>
     )
 }
