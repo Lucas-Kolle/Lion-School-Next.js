@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/headers/header"; // Importando o componente Header para ser usado na página Home.
-import Footer from "@/components/footers/footer_principal"; // Importando o componente Footer para ser usado na página Home.
+import HeaderPrincipal from "@/components/headers/header_principal"; // Importando o componente Header para ser usado na página Home.
+import FooterPrincipal from "@/components/footers/footer_principal"; // Importando o componente Footer para ser usado na página Home.
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body>
-        <Header />
-        <main>
+        <HeaderPrincipal />
+        <main className="h-[76vh]">
           {children}
         </main>
-        <Footer />
+        <FooterPrincipal />
       </body>
     </html>
   );

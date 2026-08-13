@@ -5,14 +5,18 @@ import Image from "next/image"
 export default function Header() { /* O export serve para permitir que esse componente seja usado em outros arquivos.
                                         O default significa que este é o componente principal desse arquivo. */
     return (
-        <header className=" h-[15vh] bg-[#3347B0]">
-            <div>
+        <header className="h-[12vh] bg-[#3347B0] flex justify-between px-6 items-center">
+            <div className="flex">
                 <Image 
-                    src="/"
+                    src="/logo-image.svg"
                     alt="Logo do site"
-                    width={300}
-                    height={100}
+                    width={500}
+                    height={500}
+                    className="h-[10vh] w-auto"
                 />
+            </div>
+            <div className="flex">
+                <h1 className="text-[6vh]">Sair</h1>
             </div>
         </header>
     )
