@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Footer() { /* O export serve para permitir que esse componente seja usado em outros arquivos.
     O default significa que este é o componente principal desse arquivo. */
     return (
-        <footer className="h-[55vh] bg-[#3347B0] p-[5vh] flex flex-col items-center gap-[4vh]">
+        <footer className="h-[48vh] bg-[#3347B0] p-[5vh] flex flex-col items-center gap-[4vh]">
             <div className="flex flex-col items-center justify-center gap-[2vh]">
                 <div className="flex gap-[2vw]">
                     <Image 

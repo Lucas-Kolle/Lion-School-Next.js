@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
     >
       <body>
         <HeaderPrincipal />
-        <main className="h-[76vh]">
+        <main>
           {children}
         </main>
         <FooterPrincipal />

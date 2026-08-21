@@ -15,8 +15,8 @@ export default function Header() { /* O export serve para permitir que esse comp
                     className="h-[10vh] w-auto"
                 />
             </div>
-            <div className="flex">
-                <h1 className="text-[6vh]">Sair</h1>
+            <div className="flex"> 
+                <h1 className="text-[6vh] cursor-pointer">Sair</h1>
             </div>
         </header>
     )
