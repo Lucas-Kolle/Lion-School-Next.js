@@ -40,40 +40,40 @@ export default function Footer() { /* O export serve para permitir que esse comp
             </div>
 
             <div className="flex gap-[6vw]">
-                <div className="h-[9.5vh] w-[9.5vh] border rounded-full border-[#FFFFFF]">
+                <div className="h-[7.4vh] w-[7.4vh] border-2 rounded-full border-[#FFFFFF] flex items-center justify-center">
                     <Image 
                         src="/logo-youtube.svg"
                         alt="Logo do site"
                         width={500}
                         height={500}
-                        className="h-[6vh] w-auto"
+                        className="h-[4vh] w-auto"
                     />
                 </div>            
-                <div>
+                <div className="h-[7.4vh] w-[7.4vh] border-2 rounded-full border-[#FFFFFF] flex items-center justify-center">
                     <Image 
                         src="/logo-twitter.svg"
                         alt="Logo do site"
                         width={500}
                         height={500}
-                        className="h-[6vh] w-auto"
+                        className="h-[4vh] w-auto"
                     />
                 </div>            
-                <div>
+                <div className="h-[7.4vh] w-[7.4vh] border-2 rounded-full border-[#FFFFFF] flex items-center justify-center">
                     <Image 
                         src="/logo-instagram.svg"
                         alt="Logo do site"
                         width={500}
                         height={500}
-                        className="h-[6vh] w-auto"
+                        className="h-[4vh] w-auto"
                     />
                 </div>            
-                <div>
+                <div className="h-[7.4vh] w-[7.4vh] border-2 rounded-full border-[#FFFFFF] flex items-center justify-center">
                     <Image 
                         src="/logo-facebook.svg"
                         alt="Logo do site"
                         width={500}
                         height={500}
-                        className="h-[6vh] w-auto"
+                        className="h-[4vh] w-auto"
                     />
                 </div>
             </div>
